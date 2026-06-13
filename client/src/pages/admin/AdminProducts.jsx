@@ -7,7 +7,7 @@ import { dummyProducts } from "../../assets/assets";
 
 export default function AdminProducts() {
 
-    const currency = import.meta.env.VITE_CURRENCY_SYMBOL || "$";
+    const currency =   "$";
 
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);

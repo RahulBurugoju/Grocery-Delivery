@@ -8,7 +8,7 @@ import { dummyAdminDashboardData, statusColors } from "../../assets/assets";
 
 export default function AdminDashboard() {
 
-    const currency = import.meta.env.VITE_CURRENCY_SYMBOL || "$";
+    const currency =   "$";
 
     const [stats, setStats] = useState(null);
     const [loading, setLoading] = useState(true);

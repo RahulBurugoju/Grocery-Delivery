@@ -6,7 +6,7 @@ import { dummyDashboardOrdersData, dummyDeliveryPartnerData } from "../../assets
 
 export default function AdminOrders() {
 
-    const currency = import.meta.env.VITE_CURRENCY_SYMBOL || "$";
+    const currency =   "$";
 
     const [orders, setOrders] = useState([]);
     const [partners, setPartners] = useState([]);

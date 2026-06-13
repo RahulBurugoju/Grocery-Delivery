@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import { useCart } from '../context/CartContext';
 
 function ProductCard({product}) {
-    const currency = import.meta.env.VITE_CURRENCY_SYMBOL || "$";
+    const currency =   "$";
 
     const {addToCart,setIsCartOpen} = useCart()
     const  navigate = useNavigate();
